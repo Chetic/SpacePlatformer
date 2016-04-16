@@ -1,4 +1,4 @@
-# SpacePlatformer
+# SpacePlatformer Engine
 
 **If you make anything fun with this that you want to share, or if you want to collaborate on a game, please contact me!** And feel free to create issues with feature requests for the editor.
 

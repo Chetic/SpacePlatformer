@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <entities>
+    <Entity xsi:type="Player">
+      <startPosition>
+        <X>-0.0277808346</X>
+        <Y>1.53187525</Y>
+      </startPosition>
+      <startStatic>false</startStatic>
+      <startRotation>0</startRotation>
+      <hidden>false</hidden>
+      <size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </size>
+      <children />
+      <material>
+        <textureLayers>
+          <Texture2D xsi:nil="true" />
+          <Texture2D>
+            <Name>Images\Animated\Alien</Name>
+          </Texture2D>
+          <Texture2D xsi:nil="true" />
+          <Texture2D xsi:nil="true" />
+          <Texture2D xsi:nil="true" />
+        </textureLayers>
+        <scale>
+          <X>1</X>
+          <Y>1</Y>
+        </scale>
+      </material>
+      <id>0</id>
+      <position>
+        <X>-0.0277808346</X>
+        <Y>1.53187525</Y>
+      </position>
+      <IsStatic>false</IsStatic>
+      <rotation>0</rotation>
+    </Entity>
+    <Entity xsi:type="ConcaveMesh">
+      <startPosition>
+        <X>-0.421875</X>
+        <Y>1.9375</Y>
+      </startPosition>
+      <startStatic>true</startStatic>
+      <startRotation>1.57079637</startRotation>
+      <hidden>false</hidden>
+      <size>
+        <X>0.5</X>
+        <Y>1.96875</Y>
+      </size>
+      <children />
+      <material>
+        <textureLayers>
+          <Texture2D xsi:nil="true" />
+          <Texture2D>
+            <Name>Images\Player</Name>
+          </Texture2D>
+          <Texture2D xsi:nil="true" />
+          <Texture2D xsi:nil="true" />
+          <Texture2D xsi:nil="true" />
+        </textureLayers>
+        <scale>
+          <X>1</X>
+          <Y>1</Y>
+        </scale>
+      </material>
+      <id>3</id>
+      <position>
+        <X>-0.421875</X>
+        <Y>1.9375</Y>
+      </position>
+      <IsStatic>true</IsStatic>
+      <rotation>1.57079637</rotation>
+      <meshTexture>
+        <Name>Images\Player</Name>
+      </meshTexture>
+    </Entity>
+  </entities>
+  <lightSources>
+    <LightSource>
+      <startPosition>
+        <X>0</X>
+        <Y>0</Y>
+      </startPosition>
+      <startStatic>false</startStatic>
+      <startRotation>0</startRotation>
+      <hidden>false</hidden>
+      <size>
+        <X>1</X>
+        <Y>1</Y>
+      </size>
+      <children />
+      <material>
+        <textureLayers>
+          <Texture2D xsi:nil="true" />
+          <Texture2D>
+            <Name>Images\lightmask</Name>
+          </Texture2D>
+          <Texture2D xsi:nil="true" />
+          <Texture2D xsi:nil="true" />
+          <Texture2D xsi:nil="true" />
+        </textureLayers>
+        <scale>
+          <X>1</X>
+          <Y>1</Y>
+        </scale>
+      </material>
+      <id>3</id>
+      <position>
+        <X>-2.453125</X>
+        <Y>-0.71875</Y>
+      </position>
+      <IsStatic>true</IsStatic>
+      <rotation>0</rotation>
+      <lightColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </lightColor>
+      <radius>4096</radius>
+      <power>16</power>
+      <LightAreaSize>
+        <X>256</X>
+        <Y>256</Y>
+      </LightAreaSize>
+    </LightSource>
+  </lightSources>
+  <timescale>1</timescale>
+  <Pause>false</Pause>
+</Map>

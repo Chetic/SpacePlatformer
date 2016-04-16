@@ -78,7 +78,7 @@ namespace SpacePlatformer
         {
             // TODO: use this.Content to load your game content here
             // Play music (TODO: Add to screen manager)
-            MediaPlayer.Play(Content.Load<Song>("Music\\11 - Slinger's Song"));
+            //MediaPlayer.Play(Content.Load<Song>("Music\\Main"));
         }
 
         /// <summary>

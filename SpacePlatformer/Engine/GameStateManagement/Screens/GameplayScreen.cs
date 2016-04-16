@@ -94,7 +94,7 @@ namespace GameStateManagement.Screens
             Renderer.Initialize(ScreenManager.GraphicsDevice);
             GuiHandler.Initialize();
 
-            map = Map.LoadMap("testmap.xml");
+            map = Map.LoadMap("Maps\\testmap.xml");
             EntityHandler.Initialize(map);
             cursor = new Cursor(new Vector2(), new Material("Images\\Cursor"));
         }
@@ -223,12 +223,12 @@ namespace GameStateManagement.Screens
 
                 if (keyboardState.IsKeyDown(Keys.F2))
                 {
-                    map = Map.LoadMap("testmap.xml");
+                    map = Map.LoadMap("Maps\\testmap.xml");
                     EntityHandler.Initialize(map);
                 }
 
                 if (lastKeyboardState.IsKeyDown(Keys.F5) && keyboardState.IsKeyUp(Keys.F5))
-                    map.SaveMap("testmap.xml");
+                    map.SaveMap("Maps\\testmap.xml");
                 
                 cursor.Update(Mouse.GetState());
 

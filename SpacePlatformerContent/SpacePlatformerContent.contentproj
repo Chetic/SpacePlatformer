@@ -57,13 +57,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Music\Gabester - Intrepid Solidarity.mp3">
-      <Name>Gabester - Intrepid Solidarity</Name>
-      <Importer>Mp3Importer</Importer>
-      <Processor>SongProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Fonts\GameFont.spritefont">
       <SubType>Designer</SubType>
       <Name>GameFont</Name>
@@ -162,15 +155,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Music\11 - Slinger%27s Song.mp3">
-      <Name>11 - Slinger%27s Song</Name>
-      <Importer>Mp3Importer</Importer>
-      <Processor>SongProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="Compounds\" />
-    <Folder Include="Maps\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Images\TestLandscape.png">
@@ -326,6 +311,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maps\testmap.xml">
+      <Name>testmap</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
   <!--  To modify your build process, add your task inside one of the targets below and uncomment it. 

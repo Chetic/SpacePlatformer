@@ -94,7 +94,7 @@ namespace SpacePlatformer.Engine.GameStateManagement.Controls
 
                 if (keyboardState.IsKeyDown(Keys.F2))
                 {
-                    map = Map.LoadMap("testmap.xml");
+                    map = Map.LoadMap("Maps\\testmap.xml");
                     EntityHandler.Initialize(map);
                 }
 
